@@ -30,3 +30,19 @@ Clone this repository to your local machine:
 ```bash
 git clone [https://github.com/YOUR_USERNAME/Gesture-Control-Python.git](https://github.com/YOUR_USERNAME/Gesture-Control-Python.git)
 cd Gesture-Control-Python
+
+## 🛠️ Setup and Installation
+
+### 2. Install Dependencies
+
+Install all the required Python libraries using pip. It's recommended to do this in a virtual environment.
+
+```bash
+pip install opencv-python mediapipe keyboard pycaw numpy
+
+### 3. Download the MediaPipe Model
+
+The gesture recognition requires a model file from Google.
+
+- **Download the model file here**: [`gesture_recognizer.task`](https://ai.google.dev/edge/mediapipe/solutions/vision/gesture_recognizer)
+- **Placement**: After downloading, place the `gesture_recognizer.task` file in the **root directory** of this project (the same folder as your main Python script).
